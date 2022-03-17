@@ -1,0 +1,93 @@
+Integrantes: Davi Elias Silvestre; Jeniffer Cristina Freitas Pereira
+Exercício 1:
+
+public static void main(String[] args) {
+       for (int i = 1; i < 6; i++){
+           System.out.println(i);
+       }
+            
+    }
+
+Exercício 2:
+
+public static void main(String[] args) {
+       int i = 1;
+       while(i < 6){
+           System.out.println(i);
+           i++;
+       }
+            
+    }
+
+Exercício 3:
+
+public static void main(String[] args) {
+       int i = 1;
+       do {
+           System.out.println(i);
+           i++;
+       } while(i < 6);
+            
+    }
+
+Exercício 4:
+
+public static void main(String[] args) {
+           for (int i = 1; i <= 15; i++){
+               if (i%2==0){
+               System.out.println(i);
+               }
+               
+           }
+       }
+
+Exercício 5:
+
+public static void main(String[] args) {
+           int s = 0;
+           for (int i = 0; i <= 10; i++){
+               s = s + i;
+               System.out.println(s);
+           }
+       }
+
+Exercício 6:
+
+public static void main(String[] args){
+        int s = 0;
+        int i = 0;
+        for (int n = 0; n <= 100; n++){
+            if (n%2!=0){
+              i++; 
+              s = s + n;
+            }
+        } System.out.println(s/i);
+            
+        }
+
+Exercício 7:
+
+public static void main(String[] args) {
+        
+        String nome = JOptionPane.showInputDialog("Digite seu nome: ");
+                
+        if (nome.equals("") == false){
+            System.out.println("Seu nome é: " + nome);
+        }
+                
+    }
+
+Exercício 8
+public class Pratica08NumeroParOuImpar {
+    
+    public static void main(String[] args) {
+        String nome = JOptionPane.showInputDialog("Digite um número: ");
+        int valor = Integer.parseInt(nome);
+        if (valor % 2 == 0){
+            System.out.println("Esse valor é par");
+        }else{
+            System.out.println("Esse valor é ímpar");
+        }
+    }
+    
+}
